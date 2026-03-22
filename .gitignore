@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Local secrets / local runtime data
+accounts.json
+*.log
+
+# Optional: raw traffic dumps may contain personal data
+登录查询数据包.txt
+
+.venv/
